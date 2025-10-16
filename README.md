@@ -13,4 +13,4 @@ PUT USER https://test-api-phi-livid.vercel.app/user/:id
 DELETE USER https://test-api-phi-livid.vercel.app/user/:id
 
 
-NOTE ID= 1-3
+NOTE ID EXAMPLE = 1-3
