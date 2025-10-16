@@ -9,11 +9,10 @@ const sequelize = new Sequelize(
   process.env.DB_PASS,
   {
     host: process.env.DB_HOST,
-    dialect: 'mysql', // atau 'postgres', 'sqlite', tergantung database kamu
+    dialect: 'mysql', 
   }
 );
 
-// Tes koneksi (opsional)
 sequelize.authenticate()
   .then(() => console.log('Database connected...'))
   .catch(err => console.error('Connection error:', err));
